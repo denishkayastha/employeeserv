@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Employee",
+  "description": "Employee Pojo",
+  "type": "object",
+  "properties": {
+    "id": {
+    "description": "The unique identifier for an employee.",
+    "type": "integer"
+    },
+    "name": {
+      "description": "Name of employee",
+      "type": "string"
+    },
+    "dob": {
+      "description": "Data of birth of employee",
+      "type": "string"
+    },
+    "address": {
+      "description": "Employee address.",
+        "type": "object",
+         "title": "Address",
+      	  "properties": {
+           "line1": {
+             "type": "string"
+             
+           },
+            "line2": {
+             "type": "string"
+            
+           },
+            "city": {
+             "type": "string"
+            
+           },
+            "state": {
+             "type": "string"
+            
+           },
+            "country": {
+             "type": "string"
+
+           },
+           "zipcode": {
+             "type": "string"
+           }
+         },
+     "required": ["line1", "city", "state","country","zipcode"]
+     }
+   },
+   "required":["name","dob","address"]
+}

@@ -1,0 +1,7 @@
+com\employee\serv\config\EmpJerseyConfig.class
+com\employee\serv\restserviceimpl\EmployeeResourceImpl.class
+com\employee\serv\model\Employee.class
+com\employee\serv\EmployeeservApplication.class
+com\employee\serv\model\Address.class
+com\employee\serv\restservice\EmployeeResource.class
+com\employee\serv\repository\EmployeeRepository.class
